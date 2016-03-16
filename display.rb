@@ -29,7 +29,7 @@ class Display
   def colors_for(i, j)
 
     if [i,j] == @cursor_pos
-      bg = :light_red
+      bg = :light_green
    elsif @all_moves.include?([i,j]) || @board.all_moves.include?([i,j])
      bg = :yellow
     elsif (i + j).odd?
