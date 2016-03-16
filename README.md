@@ -7,7 +7,7 @@ This is a command line game of chess written in Ruby for two players.
 To run clone the repo and run the command ruby chess.rb inside of the repo.
 
 
- ## Features
+## Features
 It supports most basic features of chess, including:
 - Highlights allowable moves, removing the moves that would put or leave the current player in check.
 - Pawn promotion.
